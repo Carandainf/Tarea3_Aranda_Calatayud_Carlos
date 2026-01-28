@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rick_dark_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/detalleImagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/img_placeholder_detalle_episodio" />
+
+        <TextView
+            android:id="@+id/detalleNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/nombre_del_episodio"
+            android:textAlignment="center"
+            android:textColor="@color/rick_yellow"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- en los diferentes android:text de este fichero XML, no lo he extraído a @string
+        porque no se van a usar en ninguna otra parte, ya que el texto que se muestra es el que
+        viene de la importación y no el que pongo de ejemplo-->
+
+        <TextView
+            android:id="@+id/detalleCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S01E01"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/detalleFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Enero 2026"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swDetalleVisto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/marcar_como_visto"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:thumbTint="@color/rick_yellow"
+            android:trackTint="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/personajes_de_este_episodio"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPersonajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"
+            tools:listitem="@android:layout/simple_list_item_1" />
+
+    </LinearLayout>
+
+</ScrollView>

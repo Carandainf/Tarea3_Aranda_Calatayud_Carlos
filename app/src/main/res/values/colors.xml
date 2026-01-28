@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rick_dark_blue">#0B1E2D</color>
+    <color name="rick_neon_green">#00FF9C</color>
+    <color name="rick_yellow">#FFEB3B</color>
+    <color name="gray">#888888</color>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tarea3_Aranda_Calatayud_Carlos</string>
+    <string name="title_activity_login">Identíficate</string>
+    <string name="title_activity_register">Registrate</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="rick_and_morty">RICK AND MORTY</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="volver_a_login">Volver a Login</string>
+    <string name="logo_de_la_serie">Logo de la serie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="episodios">Episodios</string>
+    <string name="estad_sticas">Estadísticas</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="acerca_de">Acerca de ...</string>
+    <string name="nombre_del_episodio">Nombre del Episodio</string>
+    <string name="fecha_episodio">fecha episodio</string>
+    <string name="marcar_como_visto">Marcar como visto</string>
+    <string name="personajes_de_este_episodio">Personajes de este episodio</string>
+    <string name="nombre_del_personaje">Nombre del Personaje</string>
+    <string name="ver_todos">Ver todos</string>
+    <string name="ver_vistos">Ver vistos</string>
+    <string name="rick_amp_morty_app"><![CDATA[Rick & Morty App]]></string>
+    <string name="cerrar_y_salir">Cerrar y Salir</string>
+    <string name="cargando_datos">Cargando datos...</string>
+    <string name="ajustes_de_la_app">Ajustes de la App</string>
+    <string name="modo_oscuro">Modo Oscuro</string>
+    <string name="idioma_espanol_ingles">Idioma (Español / Inglés)</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+</resources>

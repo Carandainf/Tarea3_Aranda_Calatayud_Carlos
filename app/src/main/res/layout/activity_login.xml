@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rick_dark_blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/logo_de_la_serie"
+        android:src="@drawable/logotipo" />
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="@string/rick_and_morty"
+        android:textColor="@color/rick_neon_green"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="emailAddress"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="password"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/rick_neon_green"
+        android:text="@string/iniciar_sesi_n"
+        android:textColor="@color/rick_dark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gotoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="@string/registrarse"
+        android:textColor="@color/rick_yellow"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_episodes">
+    <!-- Quiero que el fragment de episodios se muestre por defecto: "app:startDestination="@id/nav_episodes" -->
+
+    <fragment
+        android:id="@+id/nav_episodes"
+        android:name="dam.pmdm.tarea3_aranda_calatayud_carlos.ui.activities.EpisodiosFragment"
+        android:label="Episodios"
+        tools:layout="@layout/fragment_episodios" >
+        <action
+            android:id="@+id/action_nav_episodes_to_detalleEpisodioFragment"
+            app:destination="@id/detalleEpisodioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="dam.pmdm.tarea3_aranda_calatayud_carlos.ui.activities.StatsFragment"
+        android:label="Estadísticas"
+        tools:layout="@layout/fragment_stats" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="dam.pmdm.tarea3_aranda_calatayud_carlos.ui.activities.AjustesFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="dam.pmdm.tarea3_aranda_calatayud_carlos.ui.activities.AboutFragment"
+        android:label="Acerca de ..."
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/detalleEpisodioFragment"
+        android:name="dam.pmdm.tarea3_aranda_calatayud_carlos.ui.activities.DetalleEpisodioFragment"
+        android:label="fragment_detalle_episodio"
+        tools:layout="@layout/fragment_detalle_episodio" />
+</navigation>
